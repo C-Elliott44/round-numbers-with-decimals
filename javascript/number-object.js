@@ -5,3 +5,7 @@ msg += '<h2>3 decimal places</h2><p>' + originalNumber.toFixed(3) + '</p>';
 msg += '<h2>3 digits</h2><p>' + originalNumber.toPrecision(3) + '</p>';
 var el = document.getElementById('info');
 el.innerHTML = msg;
+
+/*IMPORTANT FACT!! THIS ALWAYS RETURNS A STRING.... 
+YOU HAVE TO CHANGE IT BACK TO A NUMBER 
+IF YOU WANT TO KEEP ON USING IT FOR MATH*/
